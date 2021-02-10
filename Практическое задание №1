@@ -1,0 +1,86 @@
+// Задание 1
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+    }
+}
+
+// Задание 2
+public class Main {
+
+    public static void main(String[] args) {
+	byte a = 2;
+	short b = 4;
+	int c = 6;
+	long d = 8L;
+	float e = 8.2f;
+	double f = 10.4;
+	char g = '%';
+	boolean h = true;
+	String i = "Строчное значение";
+    }
+}
+
+// Задание 3
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println(equation(1.2f, 2.4f, 6.6f, 2.2f));
+	}
+	public static float equation(float a, float b, float c, float d) {
+	return a * (b + (c / d));
+
+    }
+}
+
+// Задание 4
+public class Main {
+
+	public static void main(String[] args) {
+		int a = 11, b = 2;
+		if (a + b >= 10 && a + b <=20) {
+		System.out.println("true");
+	} else {
+			System.out.println("false");}
+	}
+}
+
+// Задание 5
+public class Main {
+
+	public static void main(String[] args) {
+		int a = -11 ;
+		if (a >= 0) {
+		System.out.println("Передано положительное число");
+	} else {
+			System.out.println("Передано отрицательное число");}
+	}
+}
+
+// Задание 6
+Не могу понять, как выполнить, потратил несколько часов, не смог сделать.
+
+// Задание 7
+public class Main {
+
+    public static void main(String[] args) {
+	String a = "Давид";
+     System.out.println("Привет, " + a + "!");
+    }
+}
+
+// Задание 8 // попробовал выполнить, понял, что надо задать все условия, а их бесконечное множество, следовательно такой вариант неверный в корне.
+public class Main {
+
+    public static void main(String[] args) {
+        int a = 2;
+        if (a >= 0 && a <= 3) {
+            System.out.println("Введеный год не является високосным!");
+        }if (a >= 5 && a <= 7) {
+            System.out.println("Введеный год не является високосным!");
+        } else {
+            System.out.println("Введеный год: високосный!");
+        }
+    }
+}
